@@ -1,0 +1,20 @@
+SOIT Research + Innovation Newsletter — GitHub Distribution Package (Fixed)
+
+Key deployment files:
+- .github/workflows/pages.yml  : static GitHub Pages deployment; no Jekyll
+- docs/.nojekyll               : disables Jekyll processing for branch-based fallback
+- TROUBLESHOOTING_GITHUB_PAGES.md : fix for style.scss/Jekyll build errors
+
+Website:
+- docs/index.html
+- docs/archive.html
+- docs/latest/index.html
+- docs/assets/css/style.css
+- docs/assets/js/site.js
+- docs/assets/images/
+- docs/issues/2026/issue-01/
+
+Publishing support:
+- README.md
+- PUBLISHING_CHECKLIST.md
+- RELEASE_NOTES_2026-09.md
